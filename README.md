@@ -3,11 +3,15 @@ node-nbt
 
 [nodejs](http://nodejs.org) library for reading and writing NBT files
 
+How to install
+---------
+Easy via npm: `npm install node-nbt`.
+
 How to use
 ---------
 Here is a simple example how you can read a gzipped NBT file into a Javascript object.
 
-    var NbtReader = require('./nbt').NbtReader;
+    var NbtReader = require('node-nbt').NbtReader;
 
     var fs = require('fs');
     fs.readFile('a_nbt_file.dat', function(err, data) {

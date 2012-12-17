@@ -1,6 +1,6 @@
 {
   "name": "node-nbt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library for reading and writing NBT files",
   "directories": {
     "test": "test"
@@ -20,5 +20,6 @@
   "devDependencies": {
     "nodeunit": ">= 0.7.4"
   },
-  "engine": "node >=0.8.0"
+  "engine": "node >=0.8.0",
+  "main": "lib/nbt"
 }
