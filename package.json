@@ -1,0 +1,24 @@
+{
+  "name": "node-nbt",
+  "version": "0.0.1",
+  "description": "Library for reading and writing NBT files",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djfun/node-nbt.git"
+  },
+  "author": "Martin Kaistra",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodeunit": ">= 0.7.4"
+  },
+  "engine": "node >=0.8.0"
+}
