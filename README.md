@@ -1,4 +1,4 @@
-node-nbt
+node-nbt [![Build Status](https://travis-ci.org/djfun/node-nbt.png?branch=master)](https://travis-ci.org/djfun/node-nbt)
 =============
 
 [nodejs](http://nodejs.org) library for reading and writing NBT files
