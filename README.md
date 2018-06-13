@@ -1,7 +1,11 @@
-node-nbt [![Build Status](https://travis-ci.org/djfun/node-nbt.png?branch=master)](https://travis-ci.org/djfun/node-nbt)
+node-nbt
 =============
 
 [nodejs](http://nodejs.org) library for reading and writing [NBT files for Minecraft](http://minecraft.gamepedia.com/NBT_Format)
+
+Compatibility
+--------
+Tested with Minecraft 1.3pre1
 
 How to install
 ---------
@@ -43,6 +47,7 @@ Available methods
 * readByte
 * readByteArray
 * readIntArray
+* readLongArray
 * removeBufferKey: removes the raw buffer with nbt data from the javascript object
 * printAscii: prints the analyzed nbt javascript object to the console
 
@@ -58,6 +63,7 @@ Available methods
 * writeByte
 * writeByteArray
 * writeIntArray
+* writeLongArray
 
 If you are writing user input to NBT consider using try-catch to catch TypeErrors.
 
@@ -75,6 +81,7 @@ Available Types
 * TAG.LIST
 * TAG.COMPOUND
 * TAG.INTARRAY
+* TAG.LONGARRAY
 
 Example
 -------
